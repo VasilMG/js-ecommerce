@@ -1,0 +1,56 @@
+.main-nav {
+    background-color: rgb(169, 140, 140);
+    height: 5em;
+    display: flex;
+    flex-direction: row;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.categories {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+    width: 70%;
+}
+
+.categories ul {
+    display: flex;
+    flex-direction: row;
+}
+
+.categories ul li {
+    display: inline;
+    padding-left: 1em;
+    font-size: 2em;
+}
+
+.categories ul li a {
+    text-decoration: none;
+    color: beige;
+}
+
+.categories ul li a:hover {
+    color: white;
+}
+
+
+.logo {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    fill: beige;
+    width: 30%;
+    font-size: 1em;
+
+}
+
+
+.logo svg {
+    margin-left: 2em;
+}
+

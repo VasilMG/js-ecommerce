@@ -1,0 +1,257 @@
+body {
+    background-color: #eee;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+}
+
+.filter {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    position: sticky;
+    top: 5em;
+    height: 100vh;
+    width: 15em;
+}
+
+.sub-categores > p {
+    font-weight: bold;
+    text-align: center;
+}
+
+.by-prices > p {
+    font-weight: bold;
+    text-align: center;
+}
+
+
+.filter > h3 {
+    text-align: center;
+}
+
+.box-category {
+    padding: 1em;  
+
+}
+
+.by-prices {
+    padding: 1em;
+}
+
+.by-prices p {
+    margin-bottom: 0.5em;
+}
+
+.box-category label, .by-prices label {
+    margin-left: 0.5em;
+}
+
+.box-category input, .by-prices input {
+    width: 1.5em;
+    height: 1.5em;
+
+}
+
+.filter label {
+    font-size: 1em;
+    
+}
+
+.category-sort {
+    display: flex;
+    flex-direction: row;
+}
+
+.items {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.category-sort {
+    width: 100%;
+    padding: 2em;
+    background-color: rgb(215, 207, 200);
+}
+
+.current-category {
+    width: 75%;
+    font-size: 2em;
+    text-align: center;
+}
+
+#sort {
+    padding: 1em;
+    width: 15em;
+    font-size: 1em;
+}
+
+.all-itams {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.card {
+    width: 30%;
+    background-color: #A98C8C;
+    padding: 1em;
+    border-radius: 1em;
+    display: flex;
+    flex-direction: column;
+    height: 40em;
+    justify-content: center;
+    margin-top: 2em;
+
+}
+
+.card > img {
+    width: 100%;
+    border-radius: 1em;
+    height: 50%;
+}
+#title {
+    text-align: center;
+    font-size: 1.5em;
+    height: auto;
+}
+
+#desc {
+    padding: 0.5em 0.2em;
+    font-size: 1.2em;
+    overflow: scroll;
+}
+
+.checked {
+    color: yellow;
+}
+
+#add-cart {
+    color: cadetblue;
+    padding: 1em;
+    font-size: 1em;
+    font-weight: bolder;
+}
+
+#rating {
+    padding: 0.5em 0.2em;
+}
+
+#rating > span {
+    font-size: 1.5em;
+}
+
+#button-price {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    justify-self: flex-end;
+}
+
+#price-no-dicount {
+    font-size: 1.5em;
+}
+
+#price-dicount {
+    font-size: 1.2em;
+
+}
+
+#price-dicount .old-price {
+    text-decoration: line-through;
+    color: red;
+}
+
+#price-dicount .new-price {
+    font-weight: bold;
+    color: green;
+}
+
+
+
+
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 50%;
+    padding-top: 0.5em;
+}
+
+.hidden {
+    display: none;
+}
+
+.moreBtn {
+    width: 100%;
+    margin-top: 2em;
+    padding: 1em;
+    text-align: center;
+}
+
+.load-more {
+    width: 10em;
+    height: 4em;
+    font-weight: bolder;
+    background-color: green;
+    color: white;
+}
+
+.load-more:hover {
+    background-color: rgb(5, 92, 5);
+}
+
+.noMore {
+    background-color: gray;
+    color: red;
+}
+
+.noMore:hover{
+    background-color: gray;
+    color: red;
+}
+
+
+footer {
+    display: flex;
+    flex-direction: row;
+    background-color: #A98C8C;
+    color: beige;
+    width: 100%;
+    justify-content: center;
+}
+
+footer .social {
+    display: flex;
+    flex-direction: row;
+    padding: 0.5em;
+    align-items: center;
+}
+
+footer .social a {
+    margin-left: 0.5em;
+}
+
+
+footer .copywright {
+    display: flex;
+    flex-direction: row;
+    padding: 0.5em;
+    align-items: center;
+}
+
+.apply-btn {
+    padding: 1em;
+    margin: 0 20%;
+}
+
+.response-filter {
+    display: none;
+}

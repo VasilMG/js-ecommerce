@@ -1,0 +1,63 @@
+@media (width <= 1000px) {
+    .card {
+        width: 45%;
+    }
+    .categories ul li {
+        font-size: 1.5em;
+    }
+    
+}
+
+@media (width <= 790px) {
+    .card {
+        width: 45%;
+    }
+    .categories ul li {
+        font-size: 1.5em;
+    }
+
+    .filter {
+        display: none;
+
+    }
+
+    .response-filter {
+        display: inline;
+    }
+    
+}
+
+
+@media (width <= 610px) {
+    .card {
+        width: 60%;
+    }
+    .categories ul li {
+        font-size: 16px;
+    }
+    
+}
+
+@media (width <= 460px) {
+    .card {
+        width: 80%;
+    }
+    .categories ul li {
+        font-size: 13px;
+    }
+
+    .logo svg {
+        margin-left: 1em;
+    }
+    
+    #sort {
+        width: auto;
+    }
+
+    .logo {
+        width: auto;
+        font-size: 13px;
+    }
+    
+}
+
