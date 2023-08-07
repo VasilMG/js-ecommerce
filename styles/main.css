@@ -125,7 +125,7 @@ main {
 #desc {
     padding: 0.5em 0.2em;
     font-size: 1.2em;
-    overflow: scroll;
+    overflow: overlay;
 }
 
 .checked {
